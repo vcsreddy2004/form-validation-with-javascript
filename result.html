@@ -1,0 +1,104 @@
+<html>
+    <head>
+        <title>
+            Result
+        </title>
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
+        <link rel="stylesheet" href="bootstrap/css/mdb.css" />
+        <link rel="stylesheet" href="result.css" />
+        <script>
+            function result()
+            {
+                document.getElementById("name").innerHTML=localStorage.getItem("name");
+                document.getElementById("DOB").innerHTML=localStorage.getItem("DOB");
+                document.getElementById("bloodGroup").innerHTML=localStorage.getItem("bloodGroup");
+                document.getElementById("qualification").innerHTML=localStorage.getItem("qualification");
+                document.getElementById("collage").innerHTML=localStorage.getItem("collage");
+                document.getElementById("phNumber").innerHTML=localStorage.getItem("phNumber");
+                document.getElementById("eMail").innerHTML=localStorage.getItem("eMail");
+            }
+        </script>
+    </head>
+    <body onload="result()">
+        <div class="container">
+            <div class="card">
+                <div class="card-header">
+                    Personal information
+                </div>
+                <div class="card-body">
+                    <table>
+                        <tr>
+                            <td class="table-head">
+                                Name
+                            </td>
+                            <td id="name"></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    Health information
+                </div>
+                <div class="card-body"> 
+                    <table>
+                        <tr>
+                            <td class="table-head">
+                                Date of birth
+                            </td>
+                            <td id="DOB"></td>
+                        </tr>
+                        <tr>
+                            <td class="table-head">
+                                Blood group
+                            </td>
+                            <td id="bloodGroup"></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    qualification
+                </div>
+                <div class="card-body">
+                    <table>
+                        <tr>
+                            <td class="table-head">
+                                qualification
+                            </td>
+                            <td id="qualification">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="table-head">
+                                collage name
+                            </td>
+                            <td id="collage"></td>
+                        </tr>
+                    </table>
+                </div>
+            <div class="card">
+                <div class="card-header">
+                    Contact info
+                </div>
+                <div class="card-body">
+                    <table>
+                        <tr>
+                            <td class="table-head">
+                                Mobile number
+                            </td>
+                            <td id="phNumber"></td>
+                        </tr>
+                        <tr>
+                            <td class="table-head">
+                                email
+                            </td>
+                            <td id="eMail"></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </bodu>
+</html>

@@ -1,0 +1,2 @@
+# form-validation-with-javascript
+localStorage concept in used here to transfer data frome one page to another page. open index page and fill data, then the data is moved frome one page to another page by localStorage concept

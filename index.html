@@ -1,0 +1,121 @@
+<html>
+    <head>
+        <title>
+            Form
+        </title>
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
+        <link rel="stylesheet" href="bootstrap/css/mdb.css" />
+        <link rel="stylesheet" href="index.css" />
+    </head>
+    <body>
+        <div class="container-fluid badge">
+            <div class="badge col-md-10" id="errorBadge">
+                <h1 id="errorMSG"></h1>
+            </div>
+        </div>
+        <div class="container">
+            <div class="card">
+                <div class="card-header">
+                    Personal information
+                </div>
+                <div class="card-body">
+                    <table>
+                        <tr>
+                            <td class="col-md-6">
+                                First Name
+                            </td>
+                            <td class="col-md-6">
+                                Last Name
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-10">
+                                <input type="text" placeholder="Enter your first Name" id="fName" class="col-md-3" />
+                            </td>
+                            <td class="col-md-10">
+                                <input type="text" placeholder="Enter your last name" id="lName" class="col-md-12"/>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    Health information
+                </div>
+                <div class="card-body"> 
+                    <table>
+                        <tr>
+                            <td class="col-md-6">
+                                Date of birth
+                            </td>
+                            <td class="col-md-6">
+                                Blood group
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-10">
+                                <input type="date" placeholder="Enter your first Name" id="DOB" class="col-md-3" />
+                            </td>
+                            <td class="col-md-10">
+                                <input type="Text" placeholder="Enter your blood group" id="bloodGroup" class="col-md-12" />
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    qualification
+                </div>
+                <div class="card-body">
+                    <table>
+                        <tr>
+                            <td class="col-md-6">
+                                qualification
+                            </td>
+                            <td class="col-md-6">
+                                collage Name
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-10">
+                                <input type="text" placeholder="Enter your qualification" id="qualification" class="col-md-3" />
+                            </td>
+                            <td class="col-md-10">
+                                <input type="text" placeholder="Enter name of collage" id="collage" class="col-md-12" >
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            <div class="card">
+                <div class="card-header">
+                    Contact info
+                </div>
+                <div class="card-body">
+                    <table>
+                        <tr>
+                            <td class="col-md-6">
+                                Mobile number
+                            </td>
+                            <td class="col-md-6">
+                                E-mail
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-10">
+                                <input type="number" placeholder="Enter your mobile number" id="phNumber" class="col-md-3" />
+                            </td>
+                            <td class="col-md-10">
+                                <input type="text" placeholder="Enter your email id" id="eMail" class="col-md-12"/>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <input type="button" id="submitBTN" class="submit-btn" value="submit" />
+        <script src="bootstrap/js/bootstrap.js"></script>
+        <script src="app.js"></script>
+    </body>
+</html>

@@ -1,0 +1,22 @@
+.card {
+    background-color: rgb(201, 159, 44);
+    border-radius: 0;
+}
+.card-header {
+    background-color: rgb(141, 90, 23);
+    color:rgb(236, 150, 51);
+    font-size:30;
+}
+.submit-btn {
+    background-color:rgb(141, 90, 23);
+    color:rgb(253, 169, 13);
+    font-size:20;
+    width:10%;
+    margin-top:1%;
+    margin-bottom:10%;
+    margin-left: 45%;
+}   
+.submit-btn:hover {
+    cursor: pointer;
+    background-color:rgb(104, 37, 6);
+}
