@@ -79,7 +79,7 @@ document.querySelector("#submitBtn").addEventListener("click", ()=> {
         }
         else
         {
-            errorMSG.innerText = "Invalid blood group Note enter blood group in uppper case letters like \"A+\"";
+            errorMSG.innerText = "Invalid blood group Note enter blood group like \"A+\"";
         }
     }
 });
